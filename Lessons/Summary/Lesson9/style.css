@@ -1,0 +1,15 @@
+div{
+border: 1 solid black;
+margin: 10px;
+height: 10px;
+background-color: blueviolet;
+} 
+.div_1{
+    width: 700px;
+}
+div_2{
+    width: 50%;
+}
+.div_3{
+    width: 50vm;
+}
