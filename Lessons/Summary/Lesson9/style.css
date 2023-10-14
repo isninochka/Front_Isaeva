@@ -2,14 +2,20 @@ div{
 border: 1 solid black;
 margin: 10px;
 height: 10px;
-background-color: blueviolet;
+background-color: #8a2be2;
 } 
 .div_1{
     width: 700px;
 }
-div_2{
+.div_2{
     width: 50%;
 }
 .div_3{
-    width: 50vm;
+    width: 50vw;
+}
+html{
+    font-size: 24px;
+}
+body{
+ 
 }

@@ -7,108 +7,69 @@
 body{
 display: flex;
 width: 420px;
-padding: 16px;
+height: 426px;
+margin: 10%;
+padding: 32px;
 flex-direction: column;
 justify-content: center;
-align-items: center;
 border-radius: 20px;
-background: var(--text-white, #FFF);
 box-shadow: 0px 20px 32px 0px rgba(96, 97, 112, 0.24), 0px 2px 8px 0px rgba(40, 41, 61, 0.08);
 }
 svg{
 display: flex;
-height: 24px;
-padding-left: 0px;
 justify-content: flex-end;
-align-items: center;
-align-self: stretch;
 }
 .krest{
-    margin-left: 364px;
+    margin-left: 332px;
 }
 h1{
-    width: 356px;
-    height: auto;
-    color: #000;    
+    width: 100%;
     font-family: 'Nunito', sans-serif;
     font-size: 28px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 32px;
-    align-self: stretch;
-    margin-left: 16px;
     margin-bottom: 24px; 
 }
 form{
-    width: 356px;
-    height: 354px;
     display: flex;
-    padding: 0px 16px 16px 16px;
     flex-direction: column;
     align-items: flex-start;
-    align-self: stretch;
-}
+   }
+   input{
+    width: 338px;
+    height: 41px;
+   }
     .email{
-    width: 324px;
-    height: 34px;
-    display: flex;
     padding: 7px 16px;
-    flex-direction: column;
-    align-items: flex-start;
-    align-self: stretch;
     border: 1px solid var(--text-outline, #CFD8DC);
     border-radius: 12px;
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    margin-bottom: 8px;
+    margin-bottom: 7px;
   }
   .email:focus{
     border-radius: 12px;
     border: 1px solid var(--primary-main-color, #FFE44D);
-    background: var(--text-white, #FFF);
     caret-color: #FFAA0D;
   }
   .password{
-    width: 324px;
-    height: 20px;
     display: flex;
     padding: 14px 16px;
-    align-items: center;
-    gap: 10px;
-    align-self: stretch;
     border-radius: 12px;
     border: 1px solid var(--text-outline, #CFD8DC);
-    background: var(--text-white, #FFF);
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
     margin-bottom: 24px; 
   }
   p{
-    width: 100%;
-    height: auto;
-    align-self: stretch;
+    width: 324px;
     color: var(--text-secondary-text, #7B8E98);
     font-family: 'Nunito', sans-serif;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 14px;
     margin-bottom: 24px; 
   }
   .button1{
-    width: 100%;
-    height: auto;
     display: flex;
-    padding: 14px 24px;
     justify-content: center;
-    align-items: center;
-    align-self: stretch;
     border-radius: 55px;
     background: #FFE44D;
     font-family: 'Nunito', sans-serif;
@@ -122,14 +83,10 @@ form{
     margin-bottom: 8px;
   }
   .button2{
-    width: 100%;
-    height: auto;
+    background-color: white;
     display: flex;
-    padding: 14px 24px;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
-    align-self: stretch;
-    border-radius: 87px;
+    font-weight: 600;
+    border-radius: 55px;
     border: 1px solid var(--text-outline, #CFD8DC);
   }
