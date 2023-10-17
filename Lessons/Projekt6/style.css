@@ -34,17 +34,125 @@ header{
  .social-link:not(:last-child){
     margin-right: 15px;
  }
- .section{
+ .about{
     display: flex;
  }
  h1{
+    font-family:'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
     margin-bottom: 23px;
     justify-content: center;
-   
- }
+    text-align: center;
+    }
  .text{
+    width: 50%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 60px;
+    padding: 0 65px;
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
  }
+ .projects{
+   width: 100%;
+   background-color: #DCFFEB;
+   padding: 125px 0;
+   }
+ h2{
+    font-family:'Inter', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 50px;
+ }
+ .projects-wrapper{
+   width: 90%;
+   margin: auto;
+   }
+ .projects-list{
+      display: flex;
+   }
+ .project{
+   display: flex;
+   align-items: flex-end;
+   width: 33%;
+   aspect-ratio: 436/376;
+   background-image: url(./images/bilding.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+ .project:not(:last-child){
+   margin-right: 40px;
+}
+h3{
+   font-family: 'Oswald', sans-serif;
+   font-size: 24px;
+   font-weight: 500;
+   margin-bottom: 16px;
+}
+p{
+   font-family: 'Open Sans', sans-serif;;
+   font-size: 16px;
+   font-weight: 400;
+
+}
+.project-hover{
+   background-color: rgba(0, 0, 0, 0.25);
+   color: #FFF;
+   padding: 30px 35px 15px;
+   visibility: hidden;
+   transition: 1s;
+}
+.project:hover .project-hover{
+   visibility: visible;
+}
+footer{
+   padding: 80px 0;
+}
+.footer-wrapper{
+   width: 90%;
+   margin: auto;
+}
+h4{
+   margin-bottom: 55px;
+   font-family:'Inter', sans-serif;
+   font-size: 35px;
+   font-weight: 400;
+   line-height: normal;
+}
+h5{
+   color: #999999;
+   font-family: 'Oswald', sans-serif;
+   font-size: 24px;
+   font-weight: 500;
+   }
+p{
+   font-family: 'Oswald', sans-serif;
+   font-size: 24px;
+   font-weight: 500;
+} 
+a{
+   font-weight: 500;
+}  
+.orange-text a{
+   color: #F7654A;
+   }
+.footer-item{
+   justify-content: space-between;
+}
+.footer-item img{
+   display: block;
+   margin: auto;
+}
+.footer-list {
+   display: flex;
+   justify-content: space-between;
+}
+.footer-icons:not(:last-child){
+   margin-right: 264px;
+}
+
+ 
