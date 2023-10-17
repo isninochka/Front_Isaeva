@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 section{
     width: 200px;
     height: 200px;
@@ -12,7 +17,11 @@ section{
     left: 70px;
     top: 70px;
     z-index: 2;
-
+   }
+   #green:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(45deg);
    }
 #blue{
     background-color: blue;
