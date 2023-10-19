@@ -24,8 +24,31 @@ console.log(100) */
 // console.log(a%b)
 // const bithYear = +prompt("Введите ваш год рождения")
 // console.log(`Вам, ${2023-bithYear} лет`)
-const degree = 20
-if(degree > 20){
-    console.log(`Можно идти в футболке`)
+// const degree = 20
+// if(degree > 20){
+//     console.log(`Можно идти в футболке`)
+// } else  if (degree < 20) {
+// console.log(`Бррр... Надень куртку`)
+// } else {
+//     console.log(`На улице 20градусов,`)
+// }
+// const number = +prompt("Введите число")
+
+// if (number > 0) {
+//     console.log(`Вы ввели положительное число`)
+// } else if (number < 0){
+//     console.log(`Вы ввели положительное число`)
+// } else {
+//     console.log(`Вы ввели "0"`)
+// }
+const sum = 1500
+if (sum >= 1500) {
+    console.log("Ваша скидка 15%")
+} else if (sum >= 1000){
+    console.log("Ваша скидка 10%")
 } else {
-console.log(`Бррр... Надень куртку`)}
+    console.log("У вас нет скидок")
+} 
+    
+
+
