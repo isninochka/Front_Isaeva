@@ -21,7 +21,8 @@ section{
    #green:hover{
     width: 300px;
     height: 300px;
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
+    transition: 1s;
    }
 #blue{
     background-color: blue;
