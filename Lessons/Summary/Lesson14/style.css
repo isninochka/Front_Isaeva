@@ -1,0 +1,24 @@
+ul{
+    list-style: none;
+}
+li:after {
+    content: '⬅';
+    margin-left: 10px;
+    /* border: 1px solid red; */
+    opacity: 0;
+    transition: 2s;
+  }
+  
+  li:before {
+    content: '➡';
+    margin-right: 10px;
+    /* border: 1px solid green; */
+    opacity: 0;
+    transition: 2s;
+  }
+  
+  li:hover::after,
+  li:hover::before {
+    opacity: 1;
+  }
+  

@@ -2,14 +2,14 @@
 //  число и выводит в консоль число равное 10% от 
 //  введенного числа
 const number = +prompt("Введите число от которого вам нужно вычислить 10%")
-console.log(`10% от вашего числа, составляет = ${number*10/100}`)
+console.log(`10% от вашего числа ${number}, составляет = ${number*10/100}`)
 // Написать программу, которая получает два числа и выводит наименьшее
 const number1 = +prompt("Введите первое число")
 const number2 = +prompt("Введите второе число")
-if (number1>number2){
-console.log(`Первое число больше, чем второе и это ${number1}`)
-}else if (number2>number1){
-console.log(`Второе число больше, чем первое и это ${number2}`)
+if (number1<number2){
+console.log(`Первое число меньше, чем второе и это ${number1}`)
+}else if (number2<number1){
+console.log(`Второе число меньше, чем первое и это ${number2}`)
 } else {
     console.log(`Ваши числа равны`)
 }
@@ -29,7 +29,7 @@ if (number3<100){
 //  ‘Hello, <name>’, если пользователь совершеннолетний, или
 //      ‘Hi, <name>’, если пользователь несовершеннолетний.
 const username = prompt("Введите ваше имя")
-const age = prompt("Сколько вам лет?")
+const age = +prompt("Сколько вам лет?")
 if (age<18) {
     console.log(`Hi, ${username}`)
 } else {
