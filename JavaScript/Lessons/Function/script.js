@@ -23,7 +23,6 @@
 //     } else{
 //         console.log(number2)
 //     }
-    
 // }
 // maxNumber(20,10)
 // function showMotification(text, color){
