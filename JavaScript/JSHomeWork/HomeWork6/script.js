@@ -31,7 +31,7 @@ console.log("Задача 4")
 // Создать переменную last_elem и передать в нее последний элемент из сформированного массива
 //  numbers_squared (обратиться к элементу массива по индексу)
 
-let last_elem = numbers_squared.pop()
+let last_elem = numbers_squared[numbers_squared.length-1]
 console.log(last_elem)
 
 console.log("Задача 5")
