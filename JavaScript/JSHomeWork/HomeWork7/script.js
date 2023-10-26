@@ -7,20 +7,29 @@ console.log("Задача 1")
  
 console.log("Задача 2")
 //  Напишите функцию, которая принимает два числовых аргумента и выводит в консоль все четные числа
-//  от большего к меньшему.
-function evenNumbers(num1, num2) {
-   if (num1 % 2 === 0 && num2 % 2 === 0) {
-    if(num1>num2){
-        console.log(num1,num2)
-    }else {
-        console.log(num2,num1)
+//  от большего к меньшему. (Видимо, задача написана не корректно)
+// function evenNumbers(num1, num2) {
+//    if (num1 % 2 === 0 && num2 % 2 === 0) {
+//     if(num1>num2){
+//         console.log(num1,num2)
+//     }else {
+//         console.log(num2,num1)
+//     }
+//    } else if (num1 % 2 === 0 && num2 % 2 !== 0) {
+//     console.log(num1)
+//    } else {
+//     console.log(num2)
+//     }
+// }evenNumbers(15,20)
+// Напишите функцию, которая принимает два числовых аргумента и выводит в консоль все четные числа
+//  от большего к меньшему //(дописала сама условие задачи) в промежутке между данными числами.
+function evenNumbers(num1,num2) {
+    for (let i = num1; i <= num2; i++) {
+        if (i % 2 === 0) {
+            console.log(i);
+        }
     }
-   } else if (num1 % 2 === 0 && num2 % 2 !== 0) {
-    console.log(num1)
-   } else {
-    console.log(num2)
-    }
-}evenNumbers(15,20)
+}evenNumbers(10,20)
  
 console.log("Задача 3")
 //  Напишите функцию power, которая принимает два числовых аргумента (основание степени и саму степень)
