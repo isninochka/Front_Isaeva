@@ -17,4 +17,4 @@
 // const img = document.querySelector("img").getAttribute("src")
 //  const source = img.getAttribute("src")
 // console.log(img)
-// img.setAttribute("src",./пусть другой картинки)
+// img.setAttribute("src",./путь другой картинки)

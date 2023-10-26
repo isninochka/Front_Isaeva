@@ -1,0 +1,14 @@
+.product{
+    background-color: rgb(150, 233, 236);
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    }
+h5{
+    font-size: 36px;
+    text-align: center;
+}
+p{
+    font-size: 24px;
+    text-align: center;
+}
