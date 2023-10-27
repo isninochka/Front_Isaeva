@@ -1,9 +1,14 @@
 console.log("Задача 1")
 // Напишите функцию, которая принимает два числовых аргумента и возвращает наименьшее из них.
  function minNumber(number1, number2) {
-    if (number1 < number2)
+    if (number1 < number2){
     console.log(`Наименьшее число -  ${number1}` )
-} minNumber(3,6)
+    return number1   
+}  if (number2 < number1){
+    console.log(`Наименьшее число -  ${number2}` )
+    return number2
+}
+} minNumber(9,1)
  
 console.log("Задача 2")
 //  Напишите функцию, которая принимает два числовых аргумента и выводит в консоль все четные числа
@@ -24,12 +29,22 @@ console.log("Задача 2")
 // Напишите функцию, которая принимает два числовых аргумента и выводит в консоль все четные числа
 //  от большего к меньшему //(дописала сама условие задачи) в промежутке между данными числами.
 function evenNumbers(num1,num2) {
-    for (let i = num1; i <= num2; i++) {
+    if (num1 === num2){
+        onsole.log("числа равны")
+        return
+    }
+    let min = num1
+    let max = num2
+    if(num1 > num2) {
+      min = num2
+      max = num1
+    }
+    for (let i = max; i >= min; i--) {
         if (i % 2 === 0) {
-            console.log(i);
+            console.log(i)
         }
     }
-}evenNumbers(10,20)
+}evenNumbers(30,20)
  
 console.log("Задача 3")
 //  Напишите функцию power, которая принимает два числовых аргумента (основание степени и саму степень)
@@ -37,6 +52,7 @@ console.log("Задача 3")
 function power(number, exponent = 2) {
     const expNum = number ** exponent
     console.log(expNum)
+    return expNum
 }power(2,3)
  
 console.log("Задача 4")
@@ -72,11 +88,13 @@ function longElem(array) {
         console.log ("null")
     }
     let longEl = array[0]
-    for (let i = 0; i < array.length; i++) {
-        if (array[i]>longEl){
+    for (let i = 1; i < array.length; i++) {
+        if (array[i].length > longEl.length){
             longEl = array[i]
         }
+      
     }console.log(longEl)
+    return longEl 
 }
 const array = ["один","два","три","четыре","пять"]
 longElem(array)
