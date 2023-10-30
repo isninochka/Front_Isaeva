@@ -1,0 +1,10 @@
+.item{
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    background-color: rgb(126, 238, 238);
+}
+style{
+    background-color: red;
+}
+button{ margin: 10px;}
