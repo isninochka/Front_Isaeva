@@ -13,12 +13,24 @@ todo.forEach(function(to){
           
 })
 const todoCards = document.querySelectorAll(".todo-item")
-todoCards.forEach(function(todoCard){
-    todoCard.addEventListener("click", function(){
-      todoCard.classList.add("active")
-       
+// todoCards.forEach(function(todoCard){
+//     todoCard.addEventListener("click", function(){
+//     //   todoCard.classList.add("active")
+//       todoCard.classList.toggle("active")
+//        })
 
-    })
+// })
+const button = document.querySelector("button")
+button.addEventListener("click",function(){
+    todoCards.forEach(function(todoCard){
+       todoCard.classList.add("active")
+               })})
+const remover = document.querySelector(".remover")
+remover.addEventListener("click",function(){
+    todoCards.forEach(function(todoCard){
+    todoCard.classList.remove("active")
+               })})
 
-})
- 
+            todoCards.forEach(function(todoCard){
+             console.log(todoCard)
+                        })
