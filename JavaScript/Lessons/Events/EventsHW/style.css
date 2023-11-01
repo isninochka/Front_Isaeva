@@ -1,0 +1,17 @@
+h1{
+    color: rgb(90, 2, 173);
+}
+.small{display: flex;
+justify-content: space-between;}
+
+.smallFotos {
+  
+    padding: 5px;
+    width: 250px;
+}
+.bigFoto {
+    width: 500px;
+}
+.divBigFoto{
+   margin-left: 25%;
+}
