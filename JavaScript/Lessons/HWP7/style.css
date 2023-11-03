@@ -1,0 +1,19 @@
+.item{
+    background-color: rgb(202, 156, 246);
+    padding: 50px;
+    width: 350px;
+    margin: 10px;
+}
+p {
+    font-size: 24px;
+}
+.hidden {
+    display: none;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: 20px;
+}
